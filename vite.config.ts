@@ -9,37 +9,38 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       includeAssets: [
-        "assets/gevpLogo.png",
-        "assets/entrenamientos2.png",
-        "assets/eventos.png",
+        "assets/logoTitleHTML.png",
+        "assets/basquetFutLogo.png",
+        "assets/BFDesktop.jpg",
+        "assets/fondo2BF.jpg",
         "apple-touch-icon.png",
       ],
       manifest: {
-        name: "GEVP APP",
-        short_name: "GEVP APP",
+        name: "Basquet Futuro",
+        short_name: "Basquet Futuro",
         description:
-          "Consulta o carga entrenamientos y eventos en el club GEVP.",
-        theme_color: "#2c7a9e",
-        background_color: "#2c7a9e",
+          "App de entrenamiento de basquet.",
+        theme_color: "#000",
+        background_color: "#000",
         display: "standalone",
         scope: "/",
         start_url: "/",
         icons: [
           {
-            src: "./assets/gevpLogo.png",
+            src: "./assets/logoTitleHTML.png",
             sizes: "192x192",
             type: "image/png",
             purpose: "maskable any",
             
           },
           {
-            src: "./assets/gevpLogo.png",
+            src: "./assets/logoTitleHTML.png",
             sizes: "512x512",
             type: "image/png",
             purpose: "maskable any",
           },
           {
-            src: "./assets/gevpLogo.png",
+            src: "./assets/logoTitleHTML.png",
             sizes: "180x180",
             type: "image/png",
             purpose: "maskable any",
