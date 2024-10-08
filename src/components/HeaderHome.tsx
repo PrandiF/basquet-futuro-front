@@ -1,4 +1,4 @@
-import logo from "../../dist/assets/basquetFutLogo.png";
+import logo from "/assets/basquetFutLogo.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
