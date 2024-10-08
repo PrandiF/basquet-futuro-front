@@ -1,4 +1,4 @@
-import logo from "../../dist/assets/basquetFutLogo.png";
+import logo from "/assets/basquetFutLogo.png";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";

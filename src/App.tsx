@@ -1,7 +1,7 @@
 import Home from "./components/Home";
 import "./index.css";
-import imageBackgroundMobile from "../dist/assets/fondo2BF.jpg";
-import imageBackgroundDesktop from "../dist/assets/BFDesktop.jpg";
+import imageBackgroundMobile from "/assets/fondo2BF.jpg";
+import imageBackgroundDesktop from "/assets/BFDesktop.jpg";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Categorias from "./components/Categorias";
 import CategoriaIndividual from "./components/CategoriaIndividual";
