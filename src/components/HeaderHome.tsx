@@ -8,12 +8,12 @@ function HeaderLogin() {
   }, []);
   return (
     <div
-      className="absolute top-0 left-0 w-full py-6 z-40 flex items-center justify-center bg-transparent"
+      className="absolute top-0 left-0 w-full py-3 z-40 flex items-center justify-center bg-transparent"
       data-aos="fade-down"
       data-aos-duration="2200"
       data-aos-delay="200"
     >
-      <img src={logo} className="xl:w-[220px] w-[150px]" />
+      <img src={logo} className="xl:w-[220px] w-[120px]" />
     </div>
   );
 }

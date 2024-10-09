@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="absolute flex flex-col gap-12  w-full">
       <HeaderLogin />
-      <div className="flex flex-col z-10 text-white font-bold gap-5 xl:gap-8 text-2xl text-center items-center justify-center m-auto w-[80%] xl:w-[95%] mt-[50%] xl:mt-[15%]">
+      <div className="flex flex-col z-10 text-white font-bold gap-5 xl:gap-8 text-2xl text-center items-center justify-center m-auto w-[80%] xl:w-[95%] mt-[45%] xl:mt-[15%]">
         <p data-aos="fade" data-aos-duration="3000" data-aos-delay="400">
           ¡Bienvenido a Básquet Futuro!
         </p>
