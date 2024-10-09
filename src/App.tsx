@@ -1,6 +1,6 @@
 import Home from "./components/Home";
 import "./index.css";
-import imageBackgroundMobile from "/assets/fondo2BF.jpg";
+import imageBackgroundMobile from "/assets/fondoMobile3.jpg";
 import imageBackgroundDesktop from "/assets/BFDesktop.jpg";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Categorias from "./components/Categorias";
@@ -13,7 +13,7 @@ function App() {
       <img
         src={imageBackgroundMobile}
         alt="fondo"
-        className="xl:hidden flex top-0 left-0 inset-0 w-screen h-full object-cover"
+        className="xl:hidden fixed top-0 left-0 w-full h-full object-cover z-[-1]"
       />
       <img
         src={imageBackgroundDesktop}
