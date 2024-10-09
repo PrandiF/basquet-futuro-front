@@ -1,5 +1,10 @@
-import { app, BrowserWindow, ipcMain }  from ("electron");
-import path  from ("path");
+import { app, BrowserWindow, ipcMain } from "electron";
+import path from "path";
+import { fileURLToPath } from "url";
+
+// Crear __filename y __dirname manualmente para ESModules
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 let appServe = null;
 
@@ -17,7 +22,7 @@ const createWindow = async () => {
     width: 1920,
     height: 1080,
     webPreferences: {
-      preload: path.join(__dirname, "preload.js"),
+      preload: path.join(__dirname, "preload.js"), // Usar __dirname para la ruta del preload
       contextIsolation: true,
       nodeIntegration: false,
       webviewTag: true,
@@ -40,7 +45,7 @@ const createWindow = async () => {
 };
 
 app.whenReady().then(async () => {
-  await loadAppServe(); // Asegúrate de cargar appServe antes de crear la ventana
+  await loadAppServe();
   createWindow();
 });
 
@@ -49,5 +54,3 @@ app.on("window-all-closed", () => {
     app.quit();
   }
 });
-
-
