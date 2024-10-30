@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import LogOutBtn from "../commons/LogOutBtn";
 
 function Header() {
   const navigate = useNavigate();
@@ -22,18 +23,18 @@ function Header() {
           data-aos-delay="200"
         />
       </div>
-      <div className="xl:hidden flex gap-6">
+      <div className="xl:hidden flex gap-3 pt-5">
         <button
-          className="cursor-pointer hover:underline xl:text-xl"
+          className="cursor-pointer hover:underline xl:text-xl text-sm"
           data-aos="fade"
           data-aos-duration="2000"
           data-aos-delay="300"
-          onClick={() => navigate("/")}
+          onClick={() => navigate("/inicio")}
         >
           Inicio
         </button>
         <button
-          className="cursor-pointer hover:underline xl:text-xl"
+          className="cursor-pointer hover:underline xl:text-xl text-sm"
           data-aos="fade"
           data-aos-duration="2000"
           data-aos-delay="400"
@@ -41,24 +42,38 @@ function Header() {
         >
           Categorias
         </button>
+        <button
+          className="cursor-pointer hover:underline xl:text-xl text-sm"
+          data-aos="fade"
+          data-aos-duration="2000"
+          data-aos-delay="400"
+          onClick={() => navigate("/perfil")}
+        >
+          Perfil
+        </button>
+        <div data-aos="fade" data-aos-duration="2000" data-aos-delay="400">
+          <LogOutBtn />
+        </div>
       </div>
 
       <button
-        className="cursor-pointer hover:underline xl:text-xl hidden xl:flex"
+        className="cursor-pointer hover:underline xl:text-xl hidden xl:flex mx-auto"
         data-aos="fade"
         data-aos-duration="2500"
         data-aos-delay="300"
-        onClick={() => navigate("/")}
+        onClick={() => navigate("/inicio")}
       >
         Inicio
       </button>
       <img
         src={logo}
-        className="xl:w-[220px] hidden xl:flex  md:w-[120px] w-[100px]"
-        data-aos="fade" data-aos-duration="2500" data-aos-delay="200"
+        className="xl:w-[220px] hidden xl:flex  md:w-[120px] w-[100px] mx-auto"
+        data-aos="fade"
+        data-aos-duration="2500"
+        data-aos-delay="200"
       />
       <button
-        className="cursor-pointer hover:underline xl:text-xl hidden xl:flex"
+        className="cursor-pointer hover:underline xl:text-xl hidden xl:flex mx-auto"
         data-aos="fade"
         data-aos-duration="2500"
         data-aos-delay="400"
@@ -66,6 +81,9 @@ function Header() {
       >
         Categorías
       </button>
+      <div className="xl:flex hidden ml-auto" data-aos="fade" data-aos-duration="2000" data-aos-delay="400">
+        <LogOutBtn />
+      </div>
     </div>
   );
 }

@@ -16,7 +16,7 @@ export const categorias = [
         { nombre: "Video 4", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 5", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
       ],
-      Fundamentos_individuales: [
+      Dribbling: [
         { nombre: "Video 1", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 2", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 3", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
@@ -56,7 +56,7 @@ export const categorias = [
         { nombre: "Video 4", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 5", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
       ],
-      Fundamentos_individuales: [
+      Dribbling: [
         { nombre: "Video 1", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 2", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 3", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
@@ -96,7 +96,7 @@ export const categorias = [
         { nombre: "Video 4", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 5", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
       ],
-      Fundamentos_individuales: [
+      Dribbling: [
         { nombre: "Video 1", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 2", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 3", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
@@ -136,7 +136,7 @@ export const categorias = [
         { nombre: "Video 4", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 5", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
       ],
-      Fundamentos_individuales: [
+      Dribbling: [
         { nombre: "Video 1", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 2", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 3", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
@@ -176,7 +176,7 @@ export const categorias = [
         { nombre: "Video 4", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 5", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
       ],
-      Fundamentos_individuales: [
+      Dribbling: [
         { nombre: "Video 1", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 2", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 3", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
@@ -216,7 +216,7 @@ export const categorias = [
         { nombre: "Video 4", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 5", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
       ],
-      Fundamentos_individuales: [
+      Dribbling: [
         { nombre: "Video 1", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 2", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 3", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
@@ -256,7 +256,7 @@ export const categorias = [
         { nombre: "Video 4", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 5", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
       ],
-      Fundamentos_individuales: [
+      Dribbling: [
         { nombre: "Video 1", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 2", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 3", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
@@ -296,7 +296,7 @@ export const categorias = [
         { nombre: "Video 4", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 5", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
       ],
-      Fundamentos_individuales: [
+      Dribbling: [
         { nombre: "Video 1", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 2", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },
         { nombre: "Video 3", url: "https://www.youtube.com/watch?v=yIPwSMNKkEc&t=78s" },

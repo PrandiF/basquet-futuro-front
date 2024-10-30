@@ -10,7 +10,7 @@ import BackButton from "../commons/BackButton";
 type Objetivo =
   | "Defensa"
   | "Ataque"
-  | "Fundamentos_individuales"
+  | "Dribbling"
   | "Tiro"
   | "uno_contra_uno";
 

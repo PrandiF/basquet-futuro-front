@@ -10,7 +10,7 @@ import BackButton from "../commons/BackButton";
 const objetivos = [
   "Defensa",
   "Ataque",
-  "Fundamentos_individuales",
+  "Dribbling",
   "Tiro",
   "uno_contra_uno",
 ];
