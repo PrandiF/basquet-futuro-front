@@ -6,6 +6,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Categorias from "./components/Categorias";
 import CategoriaIndividual from "./components/CategoriaIndividual";
 import ObjetivoIndividual from "./components/ObjetivoIndividual";
+import Subobjetivos from "./components/Subobjetivos";
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
           <Route path="/categorias/:cat" element={<CategoriaIndividual />} />
           <Route
             path="/categorias/:cat/:objetivo"
+            element={<Subobjetivos />}
+          />
+          <Route
+            path="/categorias/:cat/:objetivo/:subobjetivo"
             element={<ObjetivoIndividual />}
           />
         </Routes>
