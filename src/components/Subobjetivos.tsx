@@ -1,12 +1,13 @@
 import { useNavigate, useParams } from "react-router-dom";
 import Header from "./Header";
 import Title from "../commons/Title";
-import Card from "../commons/Card";
+// import Card from "../commons/Card";
 import { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import BackButton from "../commons/BackButton";
 import { categorias } from "../data/categoriasData";
+import Card2 from "../commons/Card2";
 
 function Subobjetivos() {
   const navigate = useNavigate();
@@ -72,12 +73,13 @@ function Subobjetivos() {
         data-aos-delay="400"
       >
         {subobjetivos.map((subobjetivo, index) => (
-          <Card
+          <Card2
             cat={subobjetivo.split("_").join(" ")}
             key={index}
             onClick={() =>
               navigate(`/categorias/${cat}/${formattedObjetivo}/${subobjetivo}`)
             }
+            pathVideo="/public/assets/fondo5Card2.mp4"
           />
         ))}
       </div>
