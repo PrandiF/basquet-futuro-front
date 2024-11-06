@@ -1,11 +1,12 @@
 import { useNavigate, useParams } from "react-router-dom";
 import Header from "./Header";
 import Title from "../commons/Title";
-import Card from "../commons/Card";
+// import Card from "../commons/Card";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import BackButton from "../commons/BackButton";
+import Card2 from "../commons/Card2";
 
 const objetivos = [
   "Defensa",
@@ -66,10 +67,11 @@ function CategoriaIndividual() {
         data-aos-delay="400"
       >
         {objetivos.map((objetivo, index) => (
-          <Card
+          <Card2
             cat={objetivo.split("_").join(" ")}
             key={index}
             onClick={() => navigate(`/categorias/${cat}/${objetivo}`)}
+            pathVideo="/public/assets/fondo6Card2.mp4"
           />
         ))}
       </div>

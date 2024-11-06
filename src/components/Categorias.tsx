@@ -1,12 +1,13 @@
 import Title from "../commons/Title";
 import Header from "./Header";
 import { categorias } from "../data/categoriasData";
-import Card from "../commons/Card";
+// import Card from "../commons/Card";
 import { useNavigate } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 import BackButton from "../commons/BackButton";
+import Card2 from "../commons/Card2";
 
 function Categorias() {
   const navigate = useNavigate();
@@ -46,10 +47,11 @@ function Categorias() {
           //   data-aos-duration="2000"
           //   data-aos-delay="200"
           // >
-            <Card
+            <Card2
               cat={categoria.cat}
               key={index}
               onClick={() => navigate(`/categorias/${categoria.cat}`)}
+              pathVideo="/public/assets/fondo2Card2.mp4"
             />
           // </div>
         ))}
