@@ -6,6 +6,8 @@ import { categorias } from "../data/categoriasData";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import BackButton from "../commons/BackButton";
+import FooterMenuResponsive from "../commons/FooterMenuResponsive";
+import HeaderLogin from "./HeaderHome";
 
 function ObjetivoIndividual() {
   const { cat, objetivo, subobjetivo } = useParams<{
@@ -53,9 +55,14 @@ function ObjetivoIndividual() {
 
   return (
     <div className="absolute flex flex-col w-full">
-      <Header />
+ <div className="xl:flex hidden w-full">
+        <Header />
+      </div>
+      <div className="flex xl:hidden w-full">
+        <HeaderLogin />
+      </div>
       <div
-        className="mt-[30%] md:mt-[20%] ml-[5%] xl:ml-[28%] xl:mt-[18%]"
+        className="mt-[30%] md:mt-[20%] ml-[5%] xl:ml-[28%] xl:mt-[15%]"
         data-aos="fade"
         data-aos-duration="2000"
         data-aos-delay="300"
@@ -75,7 +82,7 @@ function ObjetivoIndividual() {
       </div>
 
       <div
-        className="xl:w-[50%] md:[50%] w-[95%] max-h-[400px] overflow-y-auto  bg-gray-100 px-3 pb-6 pt-4 rounded-lg shadow-lg flex flex-col gap-2 mx-auto mt-[5%]"
+        className="xl:w-[50%] md:[50%] w-[95%] max-h-[400px] overflow-y-auto  bg-gray-100 px-3 pb-6 pt-4 rounded-lg shadow-lg flex flex-col gap-2 mx-auto mt-[5%] xl:mt-[2%]  "
         data-aos="fade"
         data-aos-duration="2500"
         data-aos-delay="400"
@@ -88,20 +95,23 @@ function ObjetivoIndividual() {
           filteredData.map((video, index) => (
             <div
             key={index}
-            className="text-black flex xl:flex-row md:flex-row flex-col xl:text-lg md:text-lg text-sm w-full gap-1 items-start justify-start"
+            className="text-black flex xl:flex-row md:flex-row flex-col xl:text-lg md:text-lg text-sm w-full xl:w-[80%] gap-1 items-start justify-start xl:mx-auto"
           >
-            <b className="w-full">{video.nombre}:</b>
+            <b className="w-[50%] flex justify-start items-center">{video.nombre}:</b>
             <a
               href={video.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 underline cursor-pointer w-full xl:text-sm md:text-sm text-[12px]" 
+              className="text-blue-600 underline cursor-pointer w-[50%] xl:text-sm md:text-sm text-[12px]" 
             >
               {video.url}
             </a>
           </div>
           ))
         )}
+      </div>
+      <div className="xl:hidden flex w-full mt-[12%]">
+        <FooterMenuResponsive />
       </div>
     </div>
   );

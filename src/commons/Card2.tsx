@@ -7,7 +7,7 @@ type CardProps = {
 function Card2({ cat, onClick, pathVideo }: CardProps) {
   return (
     <div
-      className="div xl:min-h-[90px] xl:w-1/5 md:w-[50%] w-[90%] bg-white m-auto rounded-[1em] relative group px-4 pb-6 pt-4 cursor pointer  z-0 overflow-hidden hover:text-white"
+      className="div xl:min-h-[90px] xl:w-1/5 md:w-[50%] w-[90%] h-[8rem] bg-white m-auto rounded-[1em] relative group px-4 pb-6 pt-4 cursor pointer  z-0 overflow-hidden hover:text-white"
       onClick={onClick}
     >
       <div className="absolute inset-0 z-[-1]">
@@ -22,7 +22,7 @@ function Card2({ cat, onClick, pathVideo }: CardProps) {
         </video>
       </div>
 
-      <h1 className="text-black z-20 font-bold font-Poppin xl:text-lg md:text-lg text-sm group-hover:text-white    duration-100 mb-4">
+      <h1 className="text-black z-20 font-bold font-Poppin xl:text-lg md:text-lg text-lg group-hover:text-white    duration-100 mb-4">
         {cat}
       </h1>
     </div>
